@@ -1,0 +1,25 @@
+.row .imgWrapper {
+    padding: 0;
+}
+
+.row .imgWrapper img {
+    display: block;
+}
+
+h4 {
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+.flex {
+    display: flex;
+}
+
+.eventList li {
+    margin-bottom: 25px;
+}

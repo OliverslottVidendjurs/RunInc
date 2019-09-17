@@ -1,0 +1,11 @@
+.categories {
+    padding: 25px;
+}
+
+.categories a {
+    color: black;
+}
+
+.categories li {
+    margin-bottom: 10px;
+}

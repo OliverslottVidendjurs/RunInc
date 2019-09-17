@@ -1,0 +1,9 @@
+.product {
+    border: 1px solid black;
+    margin-bottom: 20px;
+    height: 100%;
+}
+
+.product p {
+    text-align: center;
+}
