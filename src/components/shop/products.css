@@ -6,3 +6,15 @@
     margin-left: 20px;
     margin-right: 20px;
 }
+
+@media only screen and (max-width: 600px){
+    .products {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 450px){
+    .products {
+        margin-top: 20px;
+    }
+}

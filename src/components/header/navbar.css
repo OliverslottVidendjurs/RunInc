@@ -11,6 +11,7 @@ nav {
     display: flex;
     height: 60px;
     justify-content: space-between;
+    background-color: white;
 }
 
 nav form {
@@ -31,6 +32,7 @@ nav ul li a {
     text-decoration: none;
     color: black;
     font-size: 20px;
+    display: block;
 }
 
 nav form {
@@ -57,14 +59,55 @@ nav .input-field {
     display: flex;
 }
 
+.fa-bars {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 55px;
+    padding: 0 5px;
+    /* padding: 5px; */
+    cursor: pointer;
+}
+
 @media only screen and (max-width: 900px){
     nav ul {
-        display: none;
+        transition: 0.2s;
+        position: absolute;
+        flex-direction: column;
+        left: 0;
+        top: 60px;
+        z-index: 1;
+        width: 100%;
+        text-align: center;
+        background-color: rgba(44, 44, 44, 0.884);
+        left: -100%;
+    }
+    nav ul.customActive {
+        left: 0;
+    }
+    nav ul li a {
+        color: white;
+        padding: 10px 0;
+    }
+    nav ul li:not(:first-child) {
+        margin: 0;
     }
     nav .input-field {
         display: none;
     }
     nav {
         justify-content: center;
+    }
+
+    nav .logo {
+        padding-left: 65px;
+    }
+    
+    .fa-bars {
+        display: block;   
+    }
+    .active {
+        background-color: rgba(145, 145, 145, 0.555);
     }
 }

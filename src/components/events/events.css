@@ -66,3 +66,19 @@ p {
     font-size: 30px;
     color: white;
 }
+
+@media only screen and (max-width: 700px){
+    .events .eventsWrapper {
+        padding-top: 15px;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .events .eventsWrapper {
+        width: 100%;
+    }
+
+    .events .imgWrapper {
+        width: 100%;
+    }
+}

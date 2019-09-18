@@ -1,5 +1,6 @@
 .shop {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .shop .left {
@@ -27,4 +28,16 @@
     margin: 0;
     font-size: 30px;
     color: white;
+}
+
+@media only screen and (max-width: 450px){
+    .shop .left {
+        width: 100%;
+    }
+    .shop .right {
+        width: 100%;
+    }
+    .shop .bigText {
+        top: -125px;
+    }
 }

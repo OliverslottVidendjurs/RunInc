@@ -12,11 +12,6 @@ function Categories(){
             </h4>
             <p>Gratis fragt ved over kr. 500.-</p>
             <ul>
-                {/* <li><a href="#">Nike</a></li>
-                <li><a href="#">Adidas</a></li>
-                <li><a href="#">Puma</a></li>
-                <li><a href="#">Asics</a></li>
-                <li><a href="#">Hummel</a></li> */}
                 <li><button>Nike</button></li>
                 <li><button>Adidas</button></li>
                 <li><button>Puma</button></li>

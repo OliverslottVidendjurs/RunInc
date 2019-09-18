@@ -9,14 +9,14 @@ function Home() {
     return (
         <div>
             <div className="home">
-                <img src={bigImg} alt="a man running" className="responsive-img" />
+                <img src={bigImg} alt="a man running"/>
                 <div className="bigText">
                     <h2 className="white-text">WE LOVE <span className="yellow-text">RUNNING</span></h2>
                 </div>
             </div>
-            <Events/>
-            <Shop/>
-            <Contactus/>
+            <Events />
+            <Shop />
+            <Contactus />
         </div>
     );
 }
