@@ -7,7 +7,7 @@ function Logo() {
     const [currentImg, setCurrentImg] = useState(LogoPath);
 
     return (
-        <Link exact to="/">
+        <Link to="/">
             <img
                 onMouseLeave={() => setCurrentImg(LogoPath)}
                 onMouseEnter={() => setCurrentImg(HoverLogoPath)}
