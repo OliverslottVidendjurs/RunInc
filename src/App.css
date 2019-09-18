@@ -7,10 +7,6 @@
     margin: 0;
 }
 
-.row {
-    margin-bottom: 0;
-}
-
 img {
     /* Because images are weird */
     width: 100%;

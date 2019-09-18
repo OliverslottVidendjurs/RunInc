@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import "@fortawesome/fontawesome-free/css/all.css";
 import Header from "./components/header/header";
 import {BrowserRouter, Route} from "react-router-dom";
 import Home from "./components/home/home"

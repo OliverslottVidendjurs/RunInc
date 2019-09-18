@@ -4,7 +4,7 @@
 
 nav .logo {
     height: 100%;
-    padding: 10px;
+    padding: 5px 1px;
 }
 
 nav {
@@ -23,13 +23,14 @@ nav ul {
     align-self: center;
 }
 
-nav ul li {
+nav ul li:not(:first-child) {
     margin-left: 30px;
 }
 
 nav ul li a {
     text-decoration: none;
     color: black;
+    font-size: 20px;
 }
 
 nav form {
@@ -50,4 +51,20 @@ nav form button {
     height: 100%;
     padding-left: 5px;
     padding-right: 5px;
+}
+
+nav .input-field {
+    display: flex;
+}
+
+@media only screen and (max-width: 900px){
+    nav ul {
+        display: none;
+    }
+    nav .input-field {
+        display: none;
+    }
+    nav {
+        justify-content: center;
+    }
 }
