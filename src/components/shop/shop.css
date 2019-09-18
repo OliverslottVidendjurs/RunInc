@@ -1,3 +1,30 @@
-body {
-    /* background-color: red; */
+.shop {
+    display: flex;
+}
+
+.shop .left {
+    width: 30%;
+    background-color: yellow;
+}
+
+.shop .right {
+    width: 70%;
+    position: relative;
+}
+
+.shop .bigText {
+    position: absolute;
+    top: 20%;
+    right: 0;
+    background-color: black;
+    padding-right: 25%;
+    padding-left: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.shop h2 {
+    margin: 0;
+    font-size: 30px;
+    color: white;
 }

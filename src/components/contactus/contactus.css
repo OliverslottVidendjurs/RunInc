@@ -1,0 +1,49 @@
+.contactus {
+    display: flex;
+}
+
+.contactus .left {
+    width: 50%;
+}
+
+.contactus .right {
+    width: 50%;
+}
+
+.address {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 35px;
+    padding-top: 50px;
+}
+
+.address h4 {
+    font-size: 35px;
+    font-weight: normal;
+}
+
+.address p {
+    margin-bottom: 5px;
+}
+
+.contactus .bigText {
+    position: absolute;
+    top: 25%;
+    left: 0;
+    background-color: yellow;
+    padding-right: 3%;
+    padding-left: 30%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.contactus h2 {
+    margin: 0;
+    font-size: 30px;
+    color: black;
+}
+
+.contactus .left {
+    position: relative;
+}

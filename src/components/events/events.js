@@ -4,11 +4,14 @@ import "./events.css";
 
 function Events() {
     return (
-        <div className="row flex">
-            <div className="imgWrapper col s9">
-                <img src={LeftImg} alt="Many people running" className="responsive-img" />
+        <div className="flex events">
+            <div className="imgWrapper">
+                <img src={LeftImg} alt="Many people running" />
+                <div className="bigText">
+                    <h2 className="white-text">NEXT EVENT</h2>
+                </div>
             </div>
-            <div className="eventsWrapper col s3 yellow">
+            <div className="eventsWrapper">
                 <h3>EVENTS</h3>
                 <ul className="eventList">
                     <li>

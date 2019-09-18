@@ -1,5 +1,4 @@
 import React from 'react';
-import "../node_modules/materialize-css/dist/css/materialize.css"
 import './App.css';
 import Header from "./components/header/header";
 import {BrowserRouter, Route} from "react-router-dom";

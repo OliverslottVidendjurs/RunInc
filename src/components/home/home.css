@@ -2,7 +2,7 @@
     position: relative;
 }
 
-.bigText {
+.home .bigText {
     position: absolute;
     top: 50%;
     right: 0;
@@ -13,10 +13,14 @@
     padding-bottom: 1%;
 }
 
-h2 {
-    /* color: white; */
+.home h2 {
+    color: white;
     margin: 0;
     font-size: 30px;
+}
+
+.home h2 span {
+    color: yellow;
 }
 
 .home img {

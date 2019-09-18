@@ -5,12 +5,15 @@ import Products from "./products";
 
 function Shop() {
     return (
-        <div className="row flex">
-            <div className="col s3 yellow">
+        <div className="shop">
+            <div className="left">
                 <Categories />
             </div>
-            <div className="col s9">
-                <Products/>
+            <div className="right">
+                <div className="bigText">
+                    <h2 className="white-text">SHOP</h2>
+                </div>
+                <Products />
             </div>
         </div>
     )
