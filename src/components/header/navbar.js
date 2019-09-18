@@ -1,14 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import "./navbar.css";
-import Logo from "../../gfx/runinc_logo.svg";
+import Logo from "./logo";
 
 function Navbar() {
     return (
         <nav>
-            <div>
-                <img src={Logo} alt="logo" className="logo" />
-            </div>
+            <Logo />
             <ul>
                 <li><NavLink exact to="/">Home</NavLink></li>
                 <li><NavLink to="/events">Events</NavLink></li>
