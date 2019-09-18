@@ -9,10 +9,6 @@
     margin-bottom: 15px;
 }
 
-.categories a {
-    color: black;
-}
-
 .categories ul {
     list-style: none;
     margin-top: 25px;
@@ -22,6 +18,8 @@
     margin-bottom: 10px;
 }
 
-.categories ul li a {    
-    text-decoration: none;
+.categories ul li button {    
+    background: none;
+    border: none;
+    cursor: pointer;
 }
